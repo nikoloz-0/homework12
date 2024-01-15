@@ -1,0 +1,67 @@
+.container {
+    width: min(100% 1440px);
+    margin: auto;
+
+}
+
+/* header-------------- */
+header {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    padding: 34px 72px;
+    background: #2E0230;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seachform {
+    width: 560px;
+    border-radius: 8px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.seachbutton {
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: #B052B5;
+    height: 48px;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    color: red;
+    width: 100%;
+    /* es inputis dros tetri border ratomgac ver gavutishe  */
+}
+
+.login_div {
+    display: flex;
+gap: 8px;
+height: 42px;
+}
+
+.login {
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    background-color: transparent;
+    width: 84px;
+}
+.buttonTxt{
+    color: white;
+    font-size: 16px;
+}
+.cart_img{
+    border: none;
+    border-radius: 8px;
+background: #F30AEA;
+width: 42px;
+}
+
