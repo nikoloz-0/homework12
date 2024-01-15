@@ -86,22 +86,26 @@ header {
     background-position: center;
     align-items: center;
     justify-content: center;
-    padding: 64px 288px;
+    
 
 }
 
 .form_container {
     display: flex;
+    margin-block: 64px;
     flex-direction: column;
     width: 864px;
     height: 770px;
-    padding: 48px 200px;
+    align-items: center;
     border-radius: 20px;
     border: 1px solid rgba(176, 82, 181, 0.79);
     background: rgba(28, 19, 37, 0.80);
     backdrop-filter: blur(5px);
 }
 
+.contact_form{
+    margin-top: 48px;
+}
 .contact_us_form {
     width: 464px;
 }

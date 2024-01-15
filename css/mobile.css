@@ -1,4 +1,4 @@
-@media (max-width: 460px) {
+@media (max-width: 550px) {
     header {
         padding: 34px 8px;
     }
@@ -10,9 +10,11 @@
     .user_icon {
         display: flex;
     }
-.login_div{
-    height: 32px;
-}
+
+    .login_div {
+        height: 32px;
+    }
+
     .login {
         display: flex;
         width: 32px;
@@ -24,8 +26,22 @@
         border-radius: 8px;
         border: 1px solid #F30AEA;
     }
-    .cart_img{
+
+    .cart_img {
         width: 32px;
         height: 32px;
     }
+    .contact_us_form,
+    .name_mail,
+    .input_box, 
+    .form_container
+    textarea {
+        width: 100%;
+    }
+    .question_title{
+        font-size: 14px;
+    }
+.radio_lable{
+    font-size: 14px;
+}
 }

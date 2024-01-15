@@ -7,9 +7,14 @@
        width: 32px;
        height: 32px; 
     }
+    .form_container{
+        width: 754px;
+        
+    }
 }
 @media (max-width: 835px){
     header{
         padding: 34px 40px;
     }
+    
 }
