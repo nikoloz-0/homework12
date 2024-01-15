@@ -14,7 +14,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+.search_icon{
+    display: none;
+}
+.user_icon{
+    display: none;
+}
 .seachform {
     width: 560px;
     border-radius: 8px;

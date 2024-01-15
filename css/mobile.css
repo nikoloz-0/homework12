@@ -1,0 +1,31 @@
+@media (max-width: 361px) {
+    header {
+        padding: 34px 8px;
+    }
+
+    .buttonTxt {
+        display: none;
+    }
+
+    .user_icon {
+        display: flex;
+    }
+.login_div{
+    height: 32px;
+}
+    .login {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1px solid #F30AEA;
+    }
+    .cart_img{
+        width: 32px;
+        height: 32px;
+    }
+}

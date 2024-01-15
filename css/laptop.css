@@ -1,0 +1,15 @@
+@media (max-width: 960px){
+    .seachform{
+        display: none;
+    }
+    .search_icon{
+        display: flex;
+       width: 32px;
+       height: 32px; 
+    }
+}
+@media (max-width: 835px){
+    header{
+        padding: 34px 40px;
+    }
+}
