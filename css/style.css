@@ -12,6 +12,7 @@ header {
     background: #2E0230;
     justify-content: space-between;
     align-items: center;
+    max-width: 1440px;
 }
 
 .search_icon {
