@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatc Us</title>
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/d17611630c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="icon" href="images/logo plant.svg">
@@ -17,7 +19,7 @@
     <div class="container">
         <!-- header-------------------- -->
         <header>
-            <img src="images/logo plant.svg" alt="">
+            <a href="contact.html"><img src="images/logo plant.svg" alt=""></a>
             <form name="searchbox" class="seachform">
                 <input type="search" placeholder="What are your looking for" name="seach" class="search"><button
                     class="seachbutton"><img src="images/charm_search.svg" alt=""></button>
@@ -46,13 +48,11 @@
                         <input type="text" placeholder="Name" name="name" class="input_box">
                         <input type="email" placeholder="Email" name="email" class="input_box">
                     </div>
-                </form>
+                
                 <!-- question container -->
                 <div class="question_container">
                     <h3 class="question_title">I have a delivery question about my order</h3>
-
-                    <form action="" class="radio_form">
-
+                    <div class="options_container">
                         <div class="radio_option">
                             <input type="radio" class="radio_input" id="radio" name="options">
                             <label for="radio" class="radio_lable"  value="noOrder">I did not receive my order</label>
@@ -75,10 +75,23 @@
                             <label for="radio" class="radio_lable"  value="change">Change my shipping address</label>
                         </div>
 
+                    </div>
+                        
 
-                    </form>
+
 
                 </div>
+<div class="message_container">
+    <h3 class="question_title">Please provide more details below.</h3>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+    
+</div>
+<div class="checkboxDiv">
+    <input type="checkbox" name="recive" id="recive" value="recive">
+    <label for="recive" class="checkboxText">I want to recive newsletter</label>
+</div>
+<button type="submit" class="send_button">SEND</button>
+</form>
 
             </div>
 
