@@ -58,8 +58,6 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: var(--mainfontsize);
     font-weight: 400;
-
-    /* es inputis dros tetri border ratomgac ver gavutishe  */
 }
 
 .login_div {
@@ -272,4 +270,3 @@ background: var(--checkboxcolor);
 height: 64px;
 width: 100%;
 }
-/* var it ratomgac ver shemovitane stilebi da shemdegistvis ufro chavujdebi  */
